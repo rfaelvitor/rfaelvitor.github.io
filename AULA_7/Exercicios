@@ -1,0 +1,270 @@
+<html>
+
+<head>
+    <title>Tabelas com HTML</title>
+    <meta charset="UTF-8">
+
+    <style>
+     
+        table,
+        caption,
+        th,
+        td {
+            border: 1px solid black;
+            border-collapse: collapse;
+    
+
+
+        }
+
+        h5{
+            color: rgb(255, 255, 255);
+            font-size: 20px;
+        }
+        h3{
+            color: rgb(0, 0, 0);
+            font-size: 20px;
+            
+        }
+
+
+        caption {
+            /* background-color: green; */
+        }
+
+        tbody,
+        tfoot {
+            font-size: smaller;
+        }
+    
+    </style>
+
+</head>
+
+<body>
+    <h3>Exercícios - Aula 7</h3>
+    <h6>01. Crie uma página HTML que apresente uma tabela com os estados do Brasil
+        e suas respectivas capitais.</h6>
+    <table id="tabela1">
+
+        <thead>
+            <caption style="background-color: green;">Brasil</caption>
+
+            <tr>
+                <th style="background-color: rgb(32, 185, 32);">Estados</th>
+                <th style="background-color: rgb(32, 185, 32);">Capitais</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Acre</td>
+                <td>Rio Branco</td>
+            </tr>
+            <tr>
+                <td>Alagoas</td>
+                <td>Maceió</td>
+            </tr>
+            <tr>
+                <td>Amapá</td>
+                <td>Macapá</td>
+            </tr>
+            <tr>
+                <td>Amazonas</td>
+                <td>Manaus</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td>Salvador</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <th colspan="2">Etc... cansei, hehe</th>
+
+        </tfoot>
+    </table>
+
+    <h6>02. Crie uma página HTML que apresente os grupos da copa do mundo em tabelas com o nome do país e
+        bandeira nacional.</h6>
+
+    <table>
+        <thead>
+            <caption style="background-color: yellow;">Grupos da copa do mundo de 2022</caption>
+
+        </thead>
+
+        <tbody>
+            <tr>
+                <td rowspan="4"><b>Grupo A</b></td>
+                <td>Catar</td>
+                <td><img src="https://www.bandeirasnacionais.com/data/flags/w580/qa.webp" height="70px" width="100px">
+                </td>
+            </tr>
+            <tr>
+                <td>Equador</td>
+                <td><img src="https://media.istockphoto.com/id/657672378/pt/vetorial/flag-of-ecuador.jpg?s=612x612&w=0&k=20&c=7GWJrWW2oWKKtbQ0zvdwxIn24t6-t1A1Ydl9vBKdRYA="
+                        height="70px" width="100px"></td>
+            </tr>
+            <tr>
+                <td>Senegal</td>
+                <td><img src="https://www.bandeirasnacionais.com/data/flags/w580/sn.webp" height="70px" width="100px">
+                </td>
+            </tr>
+            <tr>
+                <td>Holanda</td>
+                <td><img src="https://s5.static.brasilescola.uol.com.br/be/2022/11/bandeira-paises-baixos-2.jpg"
+                        height="70px" width="100px"></td>
+            </tr>
+            <tr>
+                <td style="border-top: 3px solid black;" rowspan="4"><b>Grupo B</b></td>
+                <td style="border-top: 3px solid black;">Inglaterra</td>
+                <td style="border-top: 3px solid black;"><img
+                        src="https://www.bandeirasnacionais.com/data/flags/w580/gb-eng.webp" height="70px"
+                        width="100px"></td>
+            </tr>
+            <tr>
+                <td>Irã</td>
+                <td><img src="https://www.bandeirasnacionais.com/data/flags/w580/ir.webp" height="70px" width="100px">
+                </td>
+            </tr>
+            <tr>
+                <td>Estados Unidos</td>
+                <td><img src="https://static.mundoeducacao.uol.com.br/mundoeducacao/2022/05/bandeira-estados-unidos.jpg"
+                        height="70px" width="100px"></td>
+            </tr>
+            <tr>
+                <td>País de Gales</td>
+                <td><img src="https://www.bandeirasnacionais.com/data/flags/w580/gb-wls.webp" height="70px"
+                        width="100px"></td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <th colspan="3">+ Grupo C, D, E, F, G e H...</th>
+        </tfoot>
+    </table>
+    <h6>03. Crie uma página HTML que apresente uma tabela com os produtos, quantidade e valores comprados em
+         um supermercado e o valor total da compra.</h6>
+         <br>
+    <h6>04. Crie uma página HTML que contenha uma tabela que apresente a população de algumas cidades do Brasil. 
+        Siga o modelo abaixo: </h6>
+        <img src="C:\Users\Windows 10\Downloads\MODELO.QUESTÃO.png"
+        height="200px"
+        width="600px">
+    <h6>05. Crie uma página HTML que contenha uma tabela que apresente um tabuleiro de xadrez. 
+    Adicione as letras e números no tabuleiro.</h6>
+    <table style="height: 500px;
+    width:500px;">
+        <body>
+            <tr>
+                <td style="background-color: white; border-color: white; border-right-color: black;">8</td>
+                <td><h5>Teste</h5></td>
+                <td style="background-color: black;"><h3>Teste</h3></td>
+                <td><h5>Teste</h5></td>
+                <td style="background-color: black;"><h3>Teste</h3></td>
+                <td><h5>Teste</h5></td>
+                <td style="background-color: black;"><h3>Teste</h3></td>
+                <td><h5>Teste</h5></td>
+                <td style="background-color: black;"><h3>Teste</h3></td>
+
+            </tr>
+            <tr>
+                <td style="background-color: white; border-color: white; border-right-color: black;">7</td>
+                <td style="background-color: black;"><h3>Teste</h3></td>
+                <td><h5>Teste</h5></td>
+                <td style="background-color: black;"><h3>Teste</h3></td>
+                <td><h5>Teste</h5></td>
+                <td style="background-color: black;"><h3>Teste</h3></td>
+                <td><h5>Teste</h5></td>
+                <td style="background-color: black;"><h3>Teste</h3></td>
+                <td><h5>Teste</h5></td>
+            </tr>
+            <tr>
+                <td style="background-color: white; border-color: white; border-right-color: black;">6</td>
+                <td><h5>Teste</h5></td>
+                <td style="background-color: black;"><h3>Teste</h3></td>
+                <td><h5>Teste</h5></td>
+                <td style="background-color: black;"><h3>Teste</h3></td>
+                <td><h5>Teste</h5></td>
+                <td style="background-color: black;"><h3>Teste</h3></td>
+                <td><h5>Teste</h5></td>
+                <td style="background-color: black;"><h3>Teste</h3></td>
+
+            </tr>
+
+            <tr>
+                <td style="background-color: white; border-color: white; border-right-color: black;">5</td>
+                <td style="background-color: black;"><h3>Teste</h3></td>
+                <td><h5>Teste</h5></td>
+                <td style="background-color: black;"><h3>Teste</h3></td>
+                <td><h5>Teste</h5></td>
+                <td style="background-color: black;"><h3>Teste</h3></td>
+                <td><h5>Teste</h5></td>
+                <td style="background-color: black;"><h3>Teste</h3></td>
+                <td><h5>Teste</h5></td>
+            </tr>
+               <td style="background-color: white; border-color: white; border-right-color: black;">4</td>
+                <td><h5>Teste</h5></td>
+                <td style="background-color: black;"><h3>Teste</h3></td>
+                <td><h5>Teste</h5></td>
+                <td style="background-color: black;"><h3>Teste</h3></td>
+                <td><h5>Teste</h5></td>
+                <td style="background-color: black;"><h3>Teste</h3></td>
+                <td><h5>Teste</h5></td>
+                <td style="background-color: black;"><h3>Teste</h3></td>
+
+            </tr>
+            <tr>
+                <td style="background-color: white; border-color: white; border-right-color: black;">3</td>
+                <td style="background-color: black;"><h3>Teste</h3></td>
+                <td><h5>Teste</h5></td>
+                <td style="background-color: black;"><h3>Teste</h3></td>
+                <td><h5>Teste</h5></td>
+                <td style="background-color: black;"><h3>Teste</h3></td>
+                <td><h5>Teste</h5></td>
+                <td style="background-color: black;"><h3>Teste</h3></td>
+                <td><h5>Teste</h5></td>
+            </tr>
+            <tr>
+                <td style="background-color: white; border-color: white; border-right-color: black;">2</td>
+                <td><h5>Teste</h5></td>
+                <td style="background-color: black;"><h3>Teste</h3></td>
+                <td><h5>Teste</h5></td>
+                <td style="background-color: black;"><h3>Teste</h3></td>
+                <td><h5>Teste</h5></td>
+                <td style="background-color: black;"><h3>Teste</h3></td>
+                <td><h5>Teste</h5></td>
+                <td style="background-color: black;"><h3>Teste</h3></td>
+
+            </tr>
+
+            <tr>
+                <td style="background-color: white; border-color: white; border-right-color: black;">1</td>
+                <td style="background-color: black;"><h3>Teste</h3></td>
+                <td><h5>Teste</h5></td>
+                <td style="background-color: black;"><h3>Teste</h3></td>
+                <td><h5>Teste</h5></td>
+                <td style="background-color: black;"><h3>Teste</h3></td>
+                <td><h5>Teste</h5></td>
+                <td style="background-color: black;"><h3>Teste</h3></td>
+                <td><h5>Teste</h5></td>
+            </tr>
+            <tr>
+            
+                <td style="border-color: white;"><h5>1</h5></td>
+                <td style="border-color: white;"><center>A</td></center>
+                <td style="border-color: white;"><center>B</td></center>
+                <td style="border-color: white;"><center>C</td></center>
+                <td style="border-color: white;"><center>D</td></center>
+                <td style="border-color: white;"><center>E</td></center>
+                <td style="border-color: white;"><center>F</td></center>
+                <td style="border-color: white;"><center>G</td></center>
+                <td style="border-color: white;"><center>H</td></center>
+                
+                <!--Existe um jeito mais fácil com id na table ou outra tag pra definir um style específico
+                na ID lá em cima??? -->
+            </tr>
+        </body>
+    </table>
+</body>
+
+</html>
